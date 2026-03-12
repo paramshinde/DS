@@ -1,2 +1,0 @@
-mistime<-read.csv(file.choose(),header=T)
-t.test(mistime$Time,alternative='greater',mu=90)
