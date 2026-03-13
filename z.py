@@ -17,3 +17,4 @@ df = pd.DataFrame(data)
 df.to_csv("house_data.csv", index=False)
 
 print(df)
+"https://drive.google.com/drive/mobile/folders/1uIVSglL-xTCZDKztrwjtgEzQL9yrF2QH/1AQU4sWyhSMORHVrOSLzGfXraADSsD2He/1yj9po9uQDpwOvuTT8MsydX3pN71hM2vk/1SzgMU-ILQtZoqFTJNnQ8qZdJ0AcP8sDZ?usp=sharing&sort=13&direction=a"
