@@ -1,0 +1,9 @@
+//Anova-1
+satlevel<-read.csv(file.choose(),header=T)
+anovatable<-aov(formula=id~dept,data=satlevel)
+summary(anovatable)
+
+//anova-2
+satlevel<-read.csv(file.choose(),header=T)
+anovatable<-aov(formula=id~dept+exp+dept*exp,data=satlevel)
+summary(anovatable)
